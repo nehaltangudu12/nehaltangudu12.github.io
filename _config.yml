@@ -1,12 +1,12 @@
 title: Nehal Tangudu
 markdown: kramdown
 url: ""
-baseurl: "/nehaltangudu12"
+baseurl: "/jekyll-theme-serial-programmer"
 
 # for atom feed
 author:
   name: Nehal Tangudu
-  email: nehaltangudu12@gmail.com
+  email: nehaltangudu12
 
 plugins:
   - jemoji
