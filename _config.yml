@@ -1,1 +1,16 @@
-theme: jekyll-theme-tactile
+title: nehaltangudu12
+markdown: kramdown
+url: ""
+baseurl: "/nehaltangudu12"
+
+
+plugins:
+  - jemoji
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+
+collections_dir: all_collections
+collections:
+  posts:
+    output: true
