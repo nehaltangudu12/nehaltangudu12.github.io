@@ -5,11 +5,18 @@ body {
 div {
     border-radius: 25px;
     padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1,h2 {
+    color: #228CDB;
 }
 
 a {
     font-size: 20px;
     text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
 }
 
 :root {
