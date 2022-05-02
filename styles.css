@@ -12,7 +12,7 @@ a {
     text-align: center;
 }
 
-* {
+:root {
     line-height: 150%;
     text-align: center;
     --code: #228CDB;
