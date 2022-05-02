@@ -1,3 +1,9 @@
 body {
-    --background: black;
+    --background-body: #39393A;
+    --text-bright: #E6E6E6;
+}
+
+div {
+    border-radius: 25px;
+    padding: 10px;
 }
