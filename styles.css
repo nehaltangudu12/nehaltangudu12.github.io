@@ -1,9 +1,25 @@
 body {
-    --background-body: #39393A;
+    --background-body: #01161E;
     --text-bright: #E6E6E6;
 }
 
 div {
     border-radius: 25px;
     padding: 10px;
+}
+
+a {
+    font-size: 20px;
+    text-align: center;
+}
+
+* {
+    line-height: 150%;
+    text-align: center;
+    --code: #228CDB;
+    --links: #228CDB;
+}
+
+img {
+    padding: 20px;
 }
