@@ -2,7 +2,9 @@
 <html>
     <head>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/dark.css">
-        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="styles.css">   
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     </head>
     <body>
         <div>
@@ -10,7 +12,7 @@
         <h2>Math and CS Major at UIUC</h2></center></div>
 
         <p><code>Hi! This is my personal website where I post cool projects and other things that are relevant to me!
-            I am knowledgeable in C++, Python, Java, C# (with the Unity engine), and HTML/CSS
+            I am knowledgeable in C++, Python, Java, C# (with the Unity engine), and HTML/CSS.
         </code></p>
 
         <p><code>Here's a cool pic of me!</code></p>
@@ -29,7 +31,30 @@
 
         <a href="https://flamingsparrow.itch.io/">Itch.io</a>
 
+        <br>
+        <br>
+
+        <button id="nice" onclick="founction()">IQ Calculator (Joke)</button>
         
+        <br>
+
+        <p id="desc"></p>
+
+        <script>
+        function founction() { 
+            var iq =  Math.round(Math.random() * 150);
+            document.getElementById("nice").innerHTML = "Your IQ is : " + iq;
+            if (iq < 50) {
+                document.getElementById("desc").innerHTML = "Wow, only " + iq + "? Unfortunate." ;
+            } else if (iq < 100) {
+                document.getElementById("desc").innerHTML = "Painfully average " + iq + "." ;
+            } else if (iq < 150) {
+                document.getElementById("desc").innerHTML = "Congrats, you have an IQ of " + iq + "! You must be pretty smart!" ;
+            }
+            
+            
+        }
+        </script>
     </body>
 </html>
 

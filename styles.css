@@ -12,6 +12,10 @@ h1,h2 {
     color: #228CDB;
 }
 
+button {
+    background-color: #228CDB;
+}
+
 a {
     font-size: 20px;
     text-align: center;
