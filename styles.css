@@ -8,6 +8,13 @@ div {
     font-family: 'Courier New', Courier, monospace;
 }
 
+.links {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: auto;
+}
+
 h1,h2 {
     color: #228CDB;
 }
