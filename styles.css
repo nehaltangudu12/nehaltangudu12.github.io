@@ -1,11 +1,45 @@
+
 body {
     --background-body: #01161E;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
 }
 
 div {
     border-radius: 25px;
     padding: 10px;
-    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+.projectBox {
+    background-color: var(--background-body);
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 3px solid #228CDB;
+    border-radius: 25px;
+}
+.projectBox > a > img {
+    width: 0px;
+    height: 0px;
+    transition: 0.8s;
+}
+.projectBox:hover > a > img {
+    width: 300px;
+    height: 300px;
+    transition: 0.8s;
+}
+
+.projectBox > a > img:hover {
+    border: 3px solid #228CDB;
+    border-radius: 25px;
+}
+
+.showcase {
+    background-color: var(--background);
+    display: flex;
+    flex-direction: column;
 }
 
 .links {
@@ -14,7 +48,9 @@ div {
     width: 50%;
     margin: auto;
 }
-
+h1{
+    font-weight: 700;
+}
 h1,h2 {
     color: #228CDB;
 }
@@ -26,7 +62,6 @@ button {
 a {
     font-size: 20px;
     text-align: center;
-    font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
 }
 
